@@ -9,10 +9,10 @@ import Col from "../components/Col";
 function Portfolio() {
   return (
     <div>
-      <Hero backgroundImage="https://www.affordablebackgroundchecks.com/blog/wp-content/uploads/2019/03/Employee-Personal-Details-Check.jpg">
+      {/* <Hero backgroundImage="https://www.affordablebackgroundchecks.com/blog/wp-content/uploads/2019/03/Employee-Personal-Details-Check.jpg">
         <h1>RESUMEEEE!</h1>
         <h2>ADDD FLUFF HERE!</h2>
-      </Hero>
+      </Hero> */}
       <Container style={{ marginTop: 40 ,}}>
         <Row>
           <Col size="md-12">

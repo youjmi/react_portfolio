@@ -4,10 +4,11 @@ import "./Cards.css";
 import CardItem from "../CardItem/CardItem.js"
 
 
+
 const Cards = () => {
   return (
     <div className='cards'>
-      <h1>My recent assignments!</h1>
+      <h1>Portfolio</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
