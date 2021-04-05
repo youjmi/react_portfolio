@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Cards from "../components/Cards/Cards"
+// import { Card } from "reactstrap";
 
 
 //Home page info..//
