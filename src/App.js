@@ -5,6 +5,7 @@ import Resume from "./pages/Resume";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
+import Hero from "./components/Hero/index"
 import Wrapper from "./components/Wrapper/index";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
+          <Hero/>
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />

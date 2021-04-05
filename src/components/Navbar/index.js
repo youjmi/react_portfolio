@@ -15,8 +15,8 @@ function Navbar() {
       <Link className="navbar-brand" to="/">
         Jeezy
       </Link>
-      <NavbarToggler onClick={toggleNavBar}/>
-      <Collapse isOpen ={!collapsed}>
+      {/* <NavbarToggler onClick={toggleNavBar}/>
+      <Collapse isOpen ={!collapsed}> */}
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
@@ -35,7 +35,7 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        </Collapse>
+        {/* </Collapse> */}
  
     </nav>
   );
