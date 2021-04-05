@@ -1,6 +1,17 @@
 
 import React from 'react';
 import "./Cards.css";
+import pic1 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-Engine.png"
+import pic2 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+import pic3 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+import pic4 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+import pic5 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+import pic6 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+
+
+
+
+
 import CardItem from "../CardItem/CardItem.js"
 
 
@@ -13,19 +24,19 @@ const Cards = () => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/employee-Engine.png'
+              src={pic1}
               text='Employee Engine Generator'
               label='button'
               path='create external path'
             />
             <CardItem
-              src='images/employee-track.png'
+              src={pic2}
               text='Employee Tracker'
               label='Button'
               path='create external path'
             />
             <CardItem
-              src='images/welcomepage.png'
+              src={pic3}
               text='Project #2: The Bechdel Billboard'
               label='button'
               path='create external path'
@@ -33,20 +44,20 @@ const Cards = () => {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Screen Shot 2021-01-14 at 3.25.42 PM.png'
+              src={pic3}
               text='Password Generator'
               label='button'
               path='create external path'
 
             />
             <CardItem
-              src='images/Screen Shot 2021-01-14 at 3.32.06 PM.png'
+              src={pic3}
               text='enter test'
               label='button'
               path='create external path'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src={pic3}
               text='Rtenter text. '
               label='button'
               path='create external path'
