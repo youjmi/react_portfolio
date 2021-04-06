@@ -6,8 +6,10 @@
   
   h1 {
     text-align: center;
+
   }
-  
+
+
   .cards__container {
     display: flex;
     flex-flow: column;
@@ -27,8 +29,9 @@
   
   .cards__items {
     margin-bottom: 24px;
-    width: 110%;
-    
+    width: 115%;
+    padding: 0%;
+    padding-right: 15%;
   }
   
   .cards__item {
