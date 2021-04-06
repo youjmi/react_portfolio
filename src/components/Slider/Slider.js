@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {ResContent} from "./ResContent"
-import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from "react-icons/fa"
+import {FaAngleDoubleRight,FaAngleDoubleLeft} from "react-icons/fa"
+
+
 
 const Slider = ({ slides }) => {
     const [current , setCurrtent] = useState(0)
@@ -22,13 +24,13 @@ const Slider = ({ slides }) => {
 
     return ( 
         <section className ="slider">
-            <FaArrowAltCircleLeft className ="left-arrow" onClick = {prevSlide}/>
-            <FaArrowAltCircleRight className ="right-arrow" onClick = {nextSlide}/>
+            <FaAngleDoubleLeft className ="left-arrow arrowbtn" onClick = {prevSlide}/>
+            <FaAngleDoubleRight className ="right-arrow  arrowbtn" onClick = {nextSlide}/>
 
         {ResContent.map((slide,index)=> {
             return(
                 <div className = {index === current ? "slide active" :"slide"} key = {index}>
-                    {index === current && (<embed src = {slide.image} alt ="resumeInfo" className="image"/>
+                    {index === current && (<iframe src = {slide.image} alt ="resumeInfo" className="image" type ="application/pdf"/>
 )}
                 </div>
             )

@@ -1,10 +1,13 @@
+import Resume from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/YJK2021Resume.pdf"
+import CoverLetter from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/YJK2021CL.pdf"
+
 export const ResContent = [
   
     {
-      image: "https://drive.google.com/file/d/1iRNsBVrlVXrcnlqu3nG--2461_he4aBf/view?usp=sharing"
+      image: Resume
   },
   {
-      image: "https://drive.google.com/file/d/1q1uZSvKdgWQM_d080SHcrcTMtz9NbHV4/view?usp=sharing"
+      image: CoverLetter
   },
   
 

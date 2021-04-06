@@ -41,6 +41,14 @@
     border-radius: 10px;
   }
   
+  .cards_item:hover{
+    background-color: #1f98f4; 
+  color: white;
+  border-radius: 10px;
+    
+  }
+
+
   .cards__item__link {
     display: flex;
     flex-flow: column;
@@ -95,8 +103,10 @@
     transition: all 0.2s linear;
   }
   
+
   .cards__item__img:hover {
     transform: scale(1.1);
+    
   }
   
   .cards__item__info {
