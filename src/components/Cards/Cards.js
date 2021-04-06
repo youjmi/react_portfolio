@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./Cards.css";
-import pic1 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-Engine.png"
+import pic1 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/Eddy.png"
 import pic2 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
 import pic3 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
 import pic4 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
@@ -11,8 +11,7 @@ import pic6 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20
 
 
 
-
-import CardItem from "../CardItem/CardItem.js"
+import CardItem from "../CardItem/Project.js"
 
 
 
@@ -24,42 +23,47 @@ const Cards = () => {
           <ul className='cards__items'>
             <CardItem
               src={pic1}
+              title= "Eddy: Employee Designated Directory"
               text='Employee Engine Generator'
-              label='button'
-              path='create external path'
+              github ="https://github.com/youjmi/emp-dir"
+              deployed ="https://youjmi.github.io/emp-dir/"
             />
             <CardItem
               src={pic2}
-              text='Employee Tracker'
-              label='Button'
-              path='create external path'
+              title= ""
+              text='Employee Engine Generator'
+              github =""
+              deployed =""
             />
             <CardItem
               src={pic3}
-              text='Project #2: The Bechdel Billboard'
-              label='button'
-              path='create external path'
+              title= ""
+              text='Employee Engine Generator'
+              github =""
+              deployed =""
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src={pic3}
-              text='Password Generator'
-              label='button'
-              path='create external path'
-
+              title= ""
+              text='Employee Engine Generator'
+              github =""
+              deployed =""
             />
             <CardItem
               src={pic3}
-              text='enter test'
-              label='button'
-              path='create external path'
+              title= ""
+              text='Employee Engine Generator'
+              github =""
+              deployed =""
             />
             <CardItem
               src={pic3}
-              text='Rtenter text. '
-              label='button'
-              path='create external path'
+              title= ""
+              text='Employee Engine Generator'
+              github =""
+              deployed =""
             />
           </ul>
         </div>
