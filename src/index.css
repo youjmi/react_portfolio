@@ -12,6 +12,14 @@ div[data-reactroot] {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.colBorder{
+  display: flex;
+    flex: 1;
+    margin: 0 10rem;
+    border-radius: 10px;
 }
 
 /* body {
@@ -23,13 +31,23 @@ div[data-reactroot] {
 
 } */
 
-
+.intholdbox{
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 100%; 
+  height: 100%;
+  padding: 20px; 
+  margin-top: 20%;
+  border-radius: 10px;
+}
 
 
 
 .holdbox {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
+  /* background: rgb(136, 161, 212); */
   color: #f1f1f1; 
   width: 100%; 
   height: 100%;
@@ -44,19 +62,12 @@ div[data-reactroot] {
   width: 250px;
   float: left;
 }
+
+
  
 @media only screen and (max-width: 800px){
 
-  body {
-    height: auto;
-    background-position: center center;
-    /* background-repeat:repeat; */
-    background-size: cover;
-    background-image: url("./images/bg.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
   
-  }
   .Jeezy{
     height: 200px;
     width: 100px;
