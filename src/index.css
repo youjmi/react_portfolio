@@ -91,8 +91,8 @@ div[data-reactroot] {
 
 .image {
 
-  width: 600px;
-  height:  900px;
+  width: 150vh;
+  height: 90vh; 
   object-fit: cover;
   border-radius: 10px;
 
@@ -101,23 +101,29 @@ div[data-reactroot] {
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 522px;
+  right: 32px;
   font-size: 6rem;
   color: white;
   z-index: pointer;
   user-select: none;
   transition-duration: 0.4s;
+  border-radius: 50%;
+  background-color: rgb(84, 84, 92);
+
   
 }
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 522px;
+  left: 32px;
   font-size: 6rem;
   color: white;
   z-index: pointer;
   user-select: none;
   transition-duration: 0.4s;
+  border-radius: 50%;
+  background-color: rgb(84, 84, 92);
+
 }
 
 .arrowbtn:hover{
