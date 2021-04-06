@@ -19,9 +19,9 @@ function Project(props) {
         <div className='cards__item__info'>
           <h5 className='cards__item__text'>{props.text}</h5>
           <a href={props.github} target="_blank" 
-            className="buttonCode buttonspace">View Code</a>
+            className="buttonCode buttonspace"> View Code </a>
           <a href={props.deployed} target="_blank" 
-            className="buttonLive ">View Live</a>
+            className="buttonLive "> View Live </a>
 
         </div>
       </div>
