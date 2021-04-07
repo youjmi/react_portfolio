@@ -2,9 +2,29 @@
 margin-right: 5px;
 }
 
+.footicon:hover{
+
+  background-color: white; 
+  border-radius: 50%;
+  border: 10px solid white;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+.footicon1:hover{
+
+  background-color: black; 
+  border-radius: 50%;
+  border: 8px solid white;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+
 .footer {
   position: relative;
 }
+
 
 .footer  {
   position: fixed;
@@ -16,3 +36,4 @@ margin-right: 5px;
   text-align: center;
   color: white;
 }
+

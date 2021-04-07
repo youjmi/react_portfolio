@@ -58,7 +58,8 @@ div[data-reactroot] {
 
 .holdbox:hover{
   background-color: #1f98f4; 
-  color: white;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
 }
 
 .Jeezy{
@@ -91,7 +92,7 @@ div[data-reactroot] {
 
 .image {
 
-  width: 100vh;
+  width: 90vh;
   height: 90vh; 
   object-fit: cover;
   border-radius: 10px;
