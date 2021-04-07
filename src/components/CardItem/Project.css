@@ -17,7 +17,9 @@
 
 
 .cards__title {
-    color: black
+    color: black;
+    font-size: 20px;
+    
 }
 
 .cards__container {

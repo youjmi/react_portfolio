@@ -14,7 +14,7 @@ import CardItem from "../CardItem/Project.js"
 const Cards = () => {
   return (
     <div className='cards'>
-      <h1>Portfolio</h1>
+      <h1 className="pageTitle">Check out my portfolio</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

@@ -11,8 +11,9 @@ function Navbar() {
   const toggleNavBar = () => setCollapsed(!collapsed)
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
+    <div >
+    <nav style ={{display:"flex" ,justifyContent:"center", alignItems:'center',height:"10vh"}}className="navbar navbar-expand-lg navbar-light bg-light">
+      <Link className=" nav-link nav-brand" to="/">
         Jeezy
       </Link>
       {/* <NavbarToggler onClick={toggleNavBar}/>
@@ -31,13 +32,23 @@ function Navbar() {
               to="/resume"
               className={window.location.pathname === "/resume" ? "nav-link active" : "nav-link"}
             >
-              Resume
+              Resume 
             </Link>
+            
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/contact"
+              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+            >
+              Contact Me 
+            </Link>
+            
           </li>
         </ul>
         {/* </Collapse> */}
- 
     </nav>
+    </div>
   );
 }
 

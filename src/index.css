@@ -30,6 +30,18 @@ div[data-reactroot] {
   
 
 } */
+.btn-info{
+  height: 50px;
+  width: 100px;
+
+
+}
+
+
+.pageTitle {
+  color: white;
+  font-size: 5vh;
+}
 
 .intholdbox{
   background: rgb(0, 0, 0); 
@@ -42,7 +54,18 @@ div[data-reactroot] {
   border-radius: 10px;
 }
 
-
+.contact-holdbox{
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    /* background-color: #1f98f4;  */
+  color: #f1f1f1; 
+  width: 100%; 
+  height: 100%;
+  padding: px; 
+  margin-top: 10%;
+  border-radius: 10px;
+  
+}
 
 .holdbox {
   background: rgb(0, 0, 0); 

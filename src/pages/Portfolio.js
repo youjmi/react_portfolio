@@ -1,6 +1,7 @@
 import React from "react";
 import Container from "../components/Container";
 import Cards from "../components/Cards/Cards"
+
 // import { Card } from "reactstrap";
 
 
@@ -10,6 +11,7 @@ function Portfolio() {
     <div>
       <Container style={{ marginTop: 40 ,}}>
         <Cards></Cards>
+
       </Container>
     </div>
   );
