@@ -134,7 +134,9 @@ div[data-reactroot] {
 .arrowbtn:hover{
   background-color: #1f98f4; 
   color: white;
-  border-radius: 10px;
+  border-radius: 50%;
+  transform: scale(1.1);
+
 }
 
 

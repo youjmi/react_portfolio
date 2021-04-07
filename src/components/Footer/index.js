@@ -9,6 +9,7 @@ function Footer() {
       <SocialIcon  className="iconSpace footicon1" target= "_blank" bgColor="white" url ="https://github.com/youjmi"/>
       <SocialIcon className="footicon" target= "_blank" url ="https://www.facebook.com"/>
       <br></br>
+      <br></br>
       <span> &copy; Jeezy 2021
       </span>
     </footer>

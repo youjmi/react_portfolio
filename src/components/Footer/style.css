@@ -6,19 +6,20 @@ margin-right: 5px;
 
   background-color: white; 
   border-radius: 50%;
-  border: 10px solid white;
+  border: 3px solid white;
   transition-duration: 0.4s;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .footicon1:hover{
 
   background-color: black; 
   border-radius: 50%;
-  border: 8px solid white;
+  border: 3px solid white;
   transition-duration: 0.4s;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
+
 
 
 .footer {
