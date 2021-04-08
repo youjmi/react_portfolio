@@ -9,11 +9,11 @@ function Footer() {
       <SocialIcon  className="iconSpace footicon1" target= "_blank" bgColor="white"style={{ height: 35, width: 35 }} url ="https://github.com/youjmi"/>
       <SocialIcon className="footicon" target= "_blank" style={{ height: 35, width: 35 }} url ="https://www.facebook.com"/>
       <br></br>
-      <span>
+      <span style={{ alignItems:"center" }}>
       &copy; Jeezy 2021
       <br></br>
-      <a href ="mailto:youjmik@gmail.com?subject=Message from Your Portfolio" class ="text-white intro2 " target="_blank">youjmik@gmail.com</a>
-       <h6 className="intro2">+1-(310)-926-6899</h6></span>
+      <a href ="mailto:youjmik@gmail.com?subject=Message from Your Portfolio" class ="text-white" target="_blank">youjmik@gmail.com</a>
+       <h6 >+1-(310)-926-6899</h6></span>
 
     </footer>
   );

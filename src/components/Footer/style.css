@@ -35,6 +35,8 @@ margin-left: 5px;
   right: 0;
   padding: 3px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 
