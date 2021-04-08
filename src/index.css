@@ -91,14 +91,12 @@ div[data-reactroot] {
   border-radius: 10px;
   height: 500px;
   width: 250px;
-  margin-left: 30px; 
+  /* margin-left: 30px;  */
   float: left;
 }
 
-.intro1, .intro2{
-  margin-right: 30px;
-  
-}
+
+
 
 
 .slider {
@@ -133,8 +131,8 @@ div[data-reactroot] {
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 222px;
-  font-size: 6rem;
+  right: 22px;
+  font-size: 4rem;
   color: white;
   z-index: pointer;
   user-select: none;
@@ -145,8 +143,8 @@ div[data-reactroot] {
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 222px;
-  font-size: 6rem;
+  left: 22px;
+  font-size: 4rem;
   color: white;
   z-index: pointer;
   user-select: none;
@@ -157,7 +155,7 @@ div[data-reactroot] {
 }
 
 .arrowbtn{
-  border: 10px solid white;
+  border: 5px solid white;
 }
 
 .arrowbtn:hover{
@@ -169,23 +167,180 @@ div[data-reactroot] {
 }
 
 
- 
-@media only screen and (max-width: 800px){
 
+@media screen and (max-width: 900px) {
+  .Jeezy{
+    border-radius: 10px;
+    height: 300px;
+    width: 150px;
+  }
 
- body{
-height: 350%
- }
+  .intro1{
+    font-size: 100%;
+    margin-left: 60px;
+
+  }
+  .intro2{
+    font-size: 80%;
+    margin-left: 60px;
+
+  }
+
 
 
   .slider{
 
     height: 80vh
   }
+
+
   .image {
 
-    width: 60vh;
-    height: 80vh; 
+    width: 50vh;
+    height: 60vh; 
+    border-radius: 10px;
+    margin-top: 40vh;
+
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 70%;
+    font-size: 4rem;
+    right: 0px;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    font-size: 4rem;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
+  }
+
+  .arrowbtn{
+    font-size: 4rem;
+    border: 4px solid white
+  }
+  
+}
+
+ 
+@media only screen and (max-width: 800px){
+
+  .Jeezy{
+    border-radius: 10px;
+    height: 200px;
+    width: 100px;
+  }
+
+  .intro1{
+    font-size: 100%;
+    margin-left: 60px;
+
+  }
+  .intro2{
+    font-size: 80%;
+    margin-left: 60px;
+
+  }
+
+
+  .slider{
+
+    height: 60vh
+  }
+  .image {
+
+    width: 50vh;
+    height: 60vh; 
+    border-radius: 10px;
+    margin-top: 40vh;
+
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 70%;
+    font-size: 4rem;
+    right: 0px;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    font-size: 4rem;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
+  }
+
+  .arrowbtn{
+    font-size: 4rem;
+    border: 4px solid white
+  }
+  
+  .Jeezy{
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
+  }
+  
+  .intro1, .intro2{
+    margin-right: 20px;
+  }
+  
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .Jeezy{
+    border-radius: 10px;
+    height: 200px;
+    width: 100px;
+  }
+
+  .intro1{
+    font-size: 100%;
+    margin-left: 60px;
+
+  }
+  .intro2{
+    font-size: 80%;
+    margin-left: 60px;
+
+  }
+
+  .slider{
+
+    height: 60vh
+  }
+  .image {
+
+    width: 40vh;
+    height: 50vh; 
     border-radius: 10px;
     margin-top: 40vh;
 
@@ -220,19 +375,6 @@ height: 350%
   .arrowbtn{
     font-size: 4rem;
     border: 4px solid white
-  }
-  
-  .Jeezy{
-    height: 300px;
-    width: 150px;
-    margin-left: 30px; 
-  }
-
-  .intro1{
-    font-size: 100%;
-  }
-  .intro2{
-    font-size: 80%;
   }
 
 

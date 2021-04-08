@@ -19,8 +19,8 @@ function Home() {
         
           <Col className="colBorder">
               <img src={profilepic} alt="Jeezy" class="Jeezy"></img>
-              </Col>
-              <Col className="colBordermain">
+              
+              {/* <div className="colBordermain"> */}
               <h1 className="intro1">Hafa Adai and Hello!</h1>
               <h1 className="intro1">Thank you for visiting my website. </h1>
               <h4 className="intro2"> Welcome to my Portfolio. My name is Young Ji Kim and I am a Full Stack Developer currently

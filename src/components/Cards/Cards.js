@@ -10,7 +10,6 @@ import pic6 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20
 import CardItem from "../CardItem/Project.js"
 
 
-
 const Cards = () => {
   return (
     <div className='cards'>
