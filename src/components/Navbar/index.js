@@ -8,8 +8,6 @@ import Resume from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/
 import Contact from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/pages/Contact";
 import Portfolio from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/pages/Portfolio";
 
-
-
 class Navigation extends React.Component {
 	render() {
 		return (
@@ -22,7 +20,7 @@ class Navigation extends React.Component {
 								<Navbar.Toggle aria-controls="basic-navbar-nav" />
 								<Navbar.Collapse id="basic-navbar-nav">
 									<Nav className="mr-auto main-nav ">
-										<Nav.Link className ="nav-link" href="/portfolio">Projects</Nav.Link>
+										<Nav.Link className ="nav-link" href="/portfolio">Portfolio</Nav.Link>
 										<Nav.Link className ="nav-link" href="/resume">Resume</Nav.Link>
 										<Nav.Link className ="nav-link" href="/contact">Contact Me</Nav.Link>
 											
@@ -50,10 +48,10 @@ class Navigation extends React.Component {
 								</Navbar.Collapse>
 							</Navbar>
 							<Switch>
-								<Route component={Home} exact path="/" />
-								<Route component={Portfolio} path="/portfolio" />
-								<Route component={Resume} path="/resume" />
-								<Route component={Contact} path="/contact" />
+								<Route exact path="/" component={Home}  />
+								<Route  path="/portfolio" component={Portfolio} />
+								<Route path="/resume"  component={Resume} />
+								<Route path="/contact"component={Contact}  />
 							</Switch>
 						</Router>
 					</div>
