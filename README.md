@@ -18,7 +18,7 @@ Deployed React Portfolio Link: https://youjmi.github.io/react_portfolio/
 
 ## Usage 
 
-1.  First Picture: Once clicking on the Deployed Link, you will see my Home Page. You will noticed that the background for all pages have a moving Video MP4.  In the Footer, my Social Icons are responsive to Hover and will direct you to the linked necessary pages when clicked. 
+1.  First Picture: Once clicking on the Deployed Link, you will see my Home Page. You will noticed that the background for all pages have a moving Video MP4.  In the Footer, my Social Icons are responsive to Hover and will direct you to the linked associated pages when clicked. 
 
 ![Portfolio1](https://user-images.githubusercontent.com/73494581/114088060-9fda8200-9882-11eb-959a-a870c4627149.png)
 
