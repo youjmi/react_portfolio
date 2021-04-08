@@ -12,8 +12,7 @@ function Footer() {
       <span style={{ alignItems:"center" }}>
       &copy; Jeezy 2021
       <br></br>
-      <a href ="mailto:youjmik@gmail.com?subject=Message from Your Portfolio" class ="text-white" target="_blank">youjmik@gmail.com</a>
-       <h6 >+1-(310)-926-6899</h6></span>
+      <a href ="mailto:youjmik@gmail.com?subject=Message from Your Portfolio" class ="text-white" target="_blank">youjmik@gmail.com</a></span>
 
     </footer>
   );

@@ -171,7 +171,8 @@ margin: 0  !important
 @media screen and (max-width: 900px) {
 
 
-body {
+body,
+html {
   height: 110%;
 }
 
@@ -266,9 +267,11 @@ body {
 
 
 
-body {
-  height: 100%;
-}
+  body,
+  html {
+    height: 110%;
+  }
+
 .intholdbox{
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5);
@@ -368,10 +371,10 @@ margin: 0  !important
 
 
 
-  body {
-    height: 100%;
-  }
-
+body,
+html {
+  height: 110%;
+}
   .intholdbox{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5);
