@@ -66,6 +66,8 @@ text-align: center;
   margin-top: 10%;
   border-radius: 10px;
   border: 2px solid white;
+  justify-content: center;
+
 }
 
 .holdbox {
@@ -130,8 +132,8 @@ text-align: center;
 .right-arrow {
   position: absolute;
   top: 50%;
-  right: 22px;
-  font-size: 4rem;
+  right: 122px;
+  font-size: 6rem;
   color: white;
   z-index: pointer;
   user-select: none;
@@ -142,8 +144,8 @@ text-align: center;
 .left-arrow {
   position: absolute;
   top: 50%;
-  left: 22px;
-  font-size: 4rem;
+  left: 122px;
+  font-size: 6rem;
   color: white;
   z-index: pointer;
   user-select: none;
@@ -212,13 +214,13 @@ body {
     width: 50vh;
     height: 60vh; 
     border-radius: 10px;
-    margin-top: 40vh;
+    margin-top: 10vh;
 
   }
 
   .right-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     font-size: 4rem;
     right: 0px;
     color: white;
@@ -231,7 +233,7 @@ body {
 
   .left-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 0px;
     font-size: 4rem;
     color: white;
@@ -293,13 +295,13 @@ body {
     width: 50vh;
     height: 60vh; 
     border-radius: 10px;
-    margin-top: 40vh;
+    margin-top: 10vh;
 
   }
 
   .right-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     font-size: 4rem;
     right: 0px;
     color: white;
@@ -312,7 +314,7 @@ body {
 
   .left-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 0px;
     font-size: 4rem;
     color: white;
@@ -381,13 +383,13 @@ body {
     width: 40vh;
     height: 50vh; 
     border-radius: 10px;
-    margin-top: 40vh;
+    margin-top: 10vh;
 
   }
 
   .right-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     font-size: 4rem;
     right: 2px;
     color: white;
@@ -400,7 +402,7 @@ body {
 
   .left-arrow {
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 2px;
     font-size: 4rem;
     color: white;
