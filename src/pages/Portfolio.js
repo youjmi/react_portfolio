@@ -9,7 +9,7 @@ import Cards from "../components/Cards/Cards"
 function Portfolio() {
   return (
     <div>
-      <Container style={{ marginTop: 40 ,}}>
+      <Container style={{ marginTop: 40}}>
         <Cards></Cards>
 
       </Container>

@@ -159,7 +159,7 @@
       width: 10%;
     }
     .cards__items {
-      display: flex;
+      display:flex;
     }
     .cards__item {
       margin-bottom: 2rem;
