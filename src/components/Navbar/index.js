@@ -25,26 +25,6 @@ class Navigation extends React.Component {
 										<Nav.Link className ="nav-link" href="/contact">Contact Me</Nav.Link>
 											
 									</Nav>
-									<Nav className="ml-auto">
-										<Nav.Link
-											target="_blank"
-											href="https://github.com/Alexfit4"
-										>
-											<i className="fab fa-github text-3xl "></i>
-										</Nav.Link>
-										<Nav.Link
-											target="_blank"
-											href="https://www.linkedin.com/in/amir-ashtiany-4a25421b9/"
-										>
-											<i className="fab fa-linkedin text-3xl "></i>
-										</Nav.Link>
-										<Nav.Link
-											target="_blank"
-											href="https://www.facebook.com/alex.ashtiany"
-										>
-											<i className="fab fa-facebook-square text-3xl "></i>
-										</Nav.Link>
-									</Nav>
 								</Navbar.Collapse>
 							</Navbar>
 							<Switch>
