@@ -11,14 +11,27 @@
 
 } */
 
-.nav-link{
-  font-size: 50px;
-  margin-left: 50px;
+
+
+.nav-link {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+.navbar-brand{
+  font-size: 40px  !important;
+}
+
+.nav-brand:hover{
+  transform: scale(1.1);
+  transition-duration: 0.4s;
 
 }
 
 .nav-link:hover{
   transform: scale(1.1);
   transition-duration: 0.4s;
-
 }
+
+
+

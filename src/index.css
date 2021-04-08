@@ -33,8 +33,6 @@ div[data-reactroot] {
 .btn-info{
   height: 50px;
   width: 100px;
-
-
 }
 
 
@@ -52,6 +50,7 @@ div[data-reactroot] {
   padding: 20px; 
   margin-top: 10%;
   border-radius: 10px;
+  border: 2px solid white;
 }
 
 .contact-holdbox{
@@ -64,6 +63,8 @@ div[data-reactroot] {
   padding: px; 
   margin-top: 10%;
   border-radius: 10px;
+  border: 2px solid white;
+
   
 }
 
@@ -171,5 +172,7 @@ div[data-reactroot] {
     height: 200px;
     width: 100px;
   }
+
+
 }
 
