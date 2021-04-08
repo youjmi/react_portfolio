@@ -47,10 +47,11 @@ div[data-reactroot] {
   color: #f1f1f1; 
   width: 100%; 
   height: 100%;
-  padding: 20px; 
+  padding: 30px; 
   margin-top: 10%;
   border-radius: 10px;
   border: 2px solid white;
+  
 }
 
 .contact-holdbox{
@@ -90,7 +91,13 @@ div[data-reactroot] {
   border-radius: 10px;
   height: 500px;
   width: 250px;
+  margin-left: 30px; 
   float: left;
+}
+
+.intro1, .intro2{
+  margin-right: 30px;
+  
 }
 
 
@@ -169,9 +176,18 @@ div[data-reactroot] {
 
   
   .Jeezy{
-    height: 200px;
-    width: 100px;
+    height: 300px;
+    width: 150px;
+    margin-left: 30px; 
   }
+
+  .intro1{
+    font-size: 100%;
+  }
+  .intro2{
+    font-size: 80%;
+  }
+
 
 
 }
