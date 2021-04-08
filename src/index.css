@@ -141,8 +141,6 @@ div[data-reactroot] {
   transition-duration: 0.4s;
   border-radius: 50%;
   background-color: rgb(84, 84, 92);
-
-  
 }
 .left-arrow {
   position: absolute;
@@ -175,15 +173,56 @@ div[data-reactroot] {
 @media only screen and (max-width: 800px){
 
 
+  html,
+  body,
+  #root,
+  #root > div,
+  div[data-reactroot] {
+    height: 105%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue';
+  }
+  
+
+
   .slider{
 
     height: 50vh
   }
   .image {
 
-    width: 30h;
-    height: 60vh; 
+    width: 60vh;
+    height: 80vh; 
     border-radius: 10px;
+    margin-top: 40vh;
+
+  }
+
+  .right-arrow {
+    position: absolute;
+    top: 70%;
+    font-size: 4rem;
+    right: 2px;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
+  }
+
+  .left-arrow {
+    position: absolute;
+    top: 70%;
+    left: 2px;
+    font-size: 4rem;
+    color: white;
+    z-index: pointer;
+    user-select: none;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    background-color: rgb(84, 84, 92);
   }
 
   .arrowbtn{

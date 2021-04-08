@@ -12,6 +12,9 @@
 } */
 
 
+.stretchNav{
+  width: 101%;
+}
 
 .nav-link {
   font-size: 30px;
@@ -35,4 +38,12 @@
 }
 
 
+@media only screen and (max-width: 800px){
 
+  .nav-link {
+    font-size: 10px;
+  }
+  .navbar-brand{
+    font-size: 10px  !important;
+  }
+}

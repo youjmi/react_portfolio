@@ -13,9 +13,9 @@ class Navigation extends React.Component {
 		return (
 			<div>
 				<div className="row">
-					<div className="col-md-12">
+					<div className="col-md-12 colNav">
 						<Router>
-							<Navbar bg="light" variant="light" expand="lg" sticky="top">
+							<Navbar bg="light" variant="light" expand="xl" sticky="top" className ="stretchNav">
 								<Navbar.Brand className ="nav-brand" href="/react_portfolio/#/">Jeezy</Navbar.Brand>
 								<Navbar.Toggle aria-controls="basic-navbar-nav" />
 								<Navbar.Collapse id="basic-navbar-nav">
