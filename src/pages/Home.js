@@ -29,7 +29,8 @@ function Home() {
           over. I am highly skilled in Customer Service, Sales, Operations and Project Management, Guest Relations and Employee Relations up to 74 Employees under a complex labor market.</h4>
               <h4 className="intro2"> I believe that, with my new Full Stack skills combined with my existing skills will create an immense wealth of diverse knowledge that I can provide for your company.  This webpage shows some of my works that I am most proud of!
         </h4>
-            
+
+    
           </Col>
         </Row>
         </div>

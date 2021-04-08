@@ -38,8 +38,9 @@ div[data-reactroot] {
 
 .pageTitle {
   color: white;
-  font-size: 5vh;
+  font-size: 4vh;
 text-align: center;
+margin: 0  !important
 }
 
 .intholdbox{
@@ -95,8 +96,6 @@ text-align: center;
   /* margin-left: 30px;  */
   float: left;
 }
-
-
 
 
 
@@ -210,8 +209,8 @@ body {
   .pageTitle {
     color: white;
     font-size: 3vh;
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  margin: 0  !important
   }
 
   .slider{
@@ -286,10 +285,9 @@ body {
 .pageTitle {
   color: white;
   font-size: 3vh;
-  text-align: center;
-    justify-content: center;
+text-align: center;
+margin: 0  !important
 }
-
   .Jeezy{
     border-radius: 10px;
     height: 200px;
@@ -304,8 +302,8 @@ body {
   .intro2{
     font-size: 80%;
     margin-left: 60px;
-
   }
+
 
 
   .slider{
@@ -389,8 +387,8 @@ body {
   .pageTitle {
     color: white;
     font-size: 3vh;
-    text-align: center;
-    justify-content: center;
+  text-align: center;
+  margin: 0  !important
   }
   .Jeezy{
     border-radius: 10px;
