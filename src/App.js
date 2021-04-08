@@ -9,7 +9,7 @@ import Footer from "./components/Footer/index"
 function App() {
   return (
     //ensure deployed link is routed immediately to home page//
-    <Router basename={`${process.env.PUBLIC_URL}/`}>
+    <Router basename={"/"}>
       <div>
         <Navbar />
         <Hero/>
