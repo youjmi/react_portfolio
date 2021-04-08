@@ -101,7 +101,7 @@ margin: 0  !important
 
 .slider {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,8 +121,8 @@ margin: 0  !important
 
 .image {
 
-  width: 90vh;
-  height: 90vh; 
+  width: 60vh;
+  height: 70vh; 
   object-fit: cover;
   border-radius: 10px;
 
