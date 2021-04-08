@@ -11,7 +11,6 @@ import Slider from "../components/Slider/Slider"
 function Portfolio() {
   return <Slider slides = {ResContent}/>
   
-  
 }
 
 export default Portfolio;

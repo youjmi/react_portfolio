@@ -30,7 +30,7 @@ const Slider = ({ slides }) => {
         {ResContent.map((slide,index)=> {
             return(
                 <div className = {index === current ? "slide active" :"slide"} key = {index}>
-                    {index === current && (<iframe src = {slide.image} alt ="resumeInfo" className="image" type ="application/pdf"/>
+                    {index === current && (<embed src = {slide.image} alt ="resumeInfo" className="image" type ="application/pdf"/>
 )}
                 </div>
             )
