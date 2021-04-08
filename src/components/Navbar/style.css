@@ -50,14 +50,14 @@
   
 
   .stretchNav{
-    width: 103%;
+    width: 100%;
   }
 
   .nav-link {
-    font-size: 10px;
+    font-size: 20px;
   }
   .navbar-brand{
-    font-size: 10px  !important;
+    font-size: 20px  !important;
   }
 }
 
@@ -68,14 +68,14 @@
   
 
   .stretchNav{
-    width: 103%;
+    width: 100%;
   }
 
   .nav-link {
-    font-size: 8px;
+    font-size: 15px;
   }
   .navbar-brand{
-    font-size: 8px  !important;
+    font-size: 15px  !important;
   }
 }
 
@@ -86,13 +86,13 @@
   
 
   .stretchNav{
-    width: fill;
+    width: 100%;
   }
 
   .nav-link {
-    font-size: 8px;
+    font-size: 15px;
   }
   .navbar-brand{
-    font-size: 8px  !important;
+    font-size: 15px  !important;
   }
 }

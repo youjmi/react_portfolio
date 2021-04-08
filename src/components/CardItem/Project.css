@@ -135,6 +135,26 @@
   }
   
   @media only screen and (min-width: 600px) {
+
+    .buttonCode{
+      background-color: white;
+      color: green;
+      border: 2px solid #4CAF50;
+      border-radius: 5px;
+  
+  }
+  
+  .buttonLive{
+      background-color: white;
+      color: Red;
+      border: 2px solid #af4c4c;
+      border-radius: 5px;
+  
+  }
+  
+
+
+
     .content__blog__container {
       width: 10%;
     }

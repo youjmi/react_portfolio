@@ -1,12 +1,12 @@
 
 import React from 'react';
 import "./Cards.css";
-import pic1 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/Eddy.png"
-import pic2 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/Budget.png"
-import pic3 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/Workout.png"
-import pic4 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
-import pic5 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
-import pic6 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/employee-track.png"
+import pic1 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic1.png"
+import pic2 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic2.png"
+import pic3 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic3.png"
+import pic4 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic4.png"
+import pic5 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic5.png"
+import pic6 from "/Users/youngjikim/Desktop/GitLab/gwu-arl-fsf-pt-10-2020-u-c/20-State/02-Homework/react_portfolio/src/images/pic6.png"
 import CardItem from "../CardItem/Project.js"
 
 
@@ -20,46 +20,46 @@ const Cards = () => {
             <CardItem
               src={pic1}
               title= "Eddy: Employee Designated Directory"
-              text='Employee Engine Generator'
+              text='React and Axios'
               github ="https://github.com/youjmi/emp-dir"
               deployed ="https://youjmi.github.io/emp-dir/"
             />
             <CardItem
               src={pic2}
               title= "Offline and Online Budget Tracker"
-              text=''
+              text='Compression, Express, Lite-Server, Mongoose, Morgan'
               github ="https://github.com/youjmi/Off-On_budget-Tracker"
               deployed ="https://jeezy-budget-tracker.herokuapp.com/"
             />
             <CardItem
               src={pic3}
-              title= "Workout Tracker App'"
-              text=''
+              title= "Workout Tracker and Dashboard App"
+              text='Mongo, Express and Morgan'
               github ="https://github.com/youjmi/workout_Tracker-app"
               deployed ="https://rocky-falls-71528.herokuapp.com/"
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src={pic3}
-              title= ""
-              text='Employee Engine Generator'
-              github =""
-              deployed =""
+              src={pic4}
+              title= "Bechdel Billboard"
+              text='Project 2'
+              github ="https://github.com/youjmi/BechdelBillboard"
+              deployed ="https://bechdelbillboard.herokuapp.com/"
             />
             <CardItem
-              src={pic3}
-              title= ""
-              text='Employee Engine Generator'
-              github =""
-              deployed =""
+              src={pic5}
+              title= "Burger App"
+              text='Node, MySQL and HandleBars'
+              github ="https://github.com/youjmi/burger-Logger_app"
+              deployed ="https://yjk-burgerapp.herokuapp.com/"
             />
             <CardItem
-              src={pic3}
-              title= ""
-              text='Employee Engine Generator'
-              github =""
-              deployed =""
+              src={pic6}
+              title= "Employee Tracker"
+              text='Node, Inquirer, MySQL'
+              github ="https://github.com/youjmi/employee_Tracker"
+              deployed ="https://drive.google.com/file/d/1mlAl1Db10I4w3rwA4OJeufxc71HdvjHd/view"
             />
           </ul>
         </div>

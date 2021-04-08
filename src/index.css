@@ -169,6 +169,12 @@ div[data-reactroot] {
 
 
 @media screen and (max-width: 900px) {
+
+
+body {
+  height: 110%;
+}
+
   .Jeezy{
     border-radius: 10px;
     height: 300px;
@@ -187,6 +193,10 @@ div[data-reactroot] {
   }
 
 
+  .pageTitle {
+    color: white;
+    font-size: 3vh;
+  }
 
   .slider{
 
@@ -238,6 +248,17 @@ div[data-reactroot] {
 
  
 @media only screen and (max-width: 800px){
+
+
+
+body {
+  height: 100%;
+}
+
+.pageTitle {
+  color: white;
+  font-size: 3vh;
+}
 
   .Jeezy{
     border-radius: 10px;
@@ -316,6 +337,16 @@ div[data-reactroot] {
 
 @media only screen and (max-width: 600px){
 
+
+
+
+  body {
+    height: 100%;
+  }
+  .pageTitle {
+    color: white;
+    font-size: 3vh;
+  }
   .Jeezy{
     border-radius: 10px;
     height: 200px;
