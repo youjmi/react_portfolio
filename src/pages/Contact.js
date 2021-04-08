@@ -52,7 +52,7 @@ export default function ContactUs() {
         <Container style ={{marginTop: 40}}>
       <form className="contact-form contact-holdbox" onSubmit={sendEmail}>
       <h1 className ="pageTitle pt-5"> CONTACT ME HERE</h1>
-          <div className ="row pt-5 mx-auto">
+          <div className ="row pt-2 mx-auto">
               <div className ="col-8 form-group mx-auto">
                   <input type ="text" className="form-control" placeholder="Subject" name="subject"  />
               </div>
@@ -65,7 +65,7 @@ export default function ContactUs() {
               <div className ="col-8 form-group mx-auto">
                   <textarea type ="text" className="form-control" placeholder="Write your message here..." name="message"   />
               </div>
-              <div className ="py-5 col-8 form-group mx-auto">
+              <div className ="py-1 col-8 form-group mx-auto">
                   <input type ="submit" onClick={handleOnClickDefault}  className="btn btn-info" value="Send Message"   />
               </div>
           </div>
