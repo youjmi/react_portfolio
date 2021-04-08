@@ -29,8 +29,8 @@ Deployed React Portfolio Link: https://youjmi.github.io/react_portfolio/
 3. Third and Fourth Picture: I have attached both my Resume and my Cover Letter. If you look closely, the links on my PDFs are active. The active links are my QR codes in my Cover Letter and the LinkedIn and Github links in my Resume. 
 I have also added a Right and Left Button feature with Hover animation response. 
 
-![Portfolio3](https://user-images.githubusercontent.com/73494581/114088074-a36e0900-9882-11eb-886c-23602761bf50.png)
-![Portfolio4](https://user-images.githubusercontent.com/73494581/114088080-a49f3600-9882-11eb-8bb4-5c576de05d69.png)
+![Portfolio3](https://user-images.githubusercontent.com/73494581/114102075-b1c52080-9894-11eb-9db4-08797c4ca84a.png)
+![Portfolio4](https://user-images.githubusercontent.com/73494581/114102071-affb5d00-9894-11eb-9385-bb9cfc4e9d03.png)
 
 4. Fifth Picture: I have my Contact Page active and linked with my Gmail Account. 
 ![Portfolio5](https://user-images.githubusercontent.com/73494581/114088086-a668f980-9882-11eb-8a2e-b04f68feb765.png)
