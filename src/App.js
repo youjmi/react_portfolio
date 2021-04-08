@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter as Router } from "react-router-dom";
-import Navbar from "./components/Navbar/index";
+import Header from "./components/Header/index";
 import Hero from "./components/Hero/index"
 import Footer from "./components/Footer/index"
 
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
       <Hero/>
-        <Navbar />
+        <Header />
         <Footer/>
       </div>
     </Router>
