@@ -23,6 +23,7 @@ function Home() {
               {/* <div className="colBordermain"> */}
               <h1 className="intro1">Hafa Adai and Hello!</h1>
               <h1 className="intro1">Thank you for visiting my website. </h1>
+              <br></br>
               <h4 className="intro2"> Welcome to my Portfolio. My name is Young Ji Kim and I am a Full Stack Developer currently
           attending GWU Bootcamp Coding Course, which will be completed at the end of April.</h4>
               <h4 className="intro2"> I was previously in the luxuy hotel management industry for about 8 years before the pandemic took
