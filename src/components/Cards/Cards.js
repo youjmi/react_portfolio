@@ -18,18 +18,18 @@ const Cards = () => {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
+              src={pic2}
+              title= "mindflō"
+              text='Project 3: MERN, Bycrypt, Apexcharts, EmailJS'
+              github ="https://github.com/youjmi/mindflo"
+              deployed ="https://mindflo.herokuapp.com/"
+            />
+              <CardItem
               src={pic1}
               title= "Eddy: Employee Designated Directory"
               text='React and Axios'
               github ="https://github.com/youjmi/emp-dir"
               deployed ="https://youjmi.github.io/emp-dir/"
-            />
-            <CardItem
-              src={pic2}
-              title= "Offline and Online Budget Tracker"
-              text='Compression, Express, Lite-Server, Mongoose, Morgan'
-              github ="https://github.com/youjmi/Off-On_budget-Tracker"
-              deployed ="https://jeezy-budget-tracker.herokuapp.com/"
             />
             <CardItem
               src={pic3}
@@ -43,7 +43,7 @@ const Cards = () => {
             <CardItem
               src={pic4}
               title= "Bechdel Billboard"
-              text='Project 2'
+              text='Project 2: Express, Handlebars, Node, Bootstrap, MySQL, Bcrypt'
               github ="https://github.com/youjmi/BechdelBillboard"
               deployed ="https://bechdelbillboard.herokuapp.com/"
             />
