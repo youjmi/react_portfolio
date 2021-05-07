@@ -43,7 +43,7 @@ const Cards = () => {
             <CardItem
               src={pic4}
               title= "Bechdel Billboard"
-              text='Project 2: Express, Handlebars, Node, Bootstrap, MySQL, Bcrypt'
+              text='Project 2: Express, Node, MySQL, Bcrypt'
               github ="https://github.com/youjmi/BechdelBillboard"
               deployed ="https://bechdelbillboard.herokuapp.com/"
             />
