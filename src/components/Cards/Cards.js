@@ -19,8 +19,8 @@ const Cards = () => {
           <ul className='cards__items'>
             <CardItem
               src={pic2}
-              title= "mindflō"
-              text='Project 3: MERN, Bycrypt, Apexcharts, EmailJS'
+              title= "Project 3: mindflō"
+              text='MERN, Bycrypt, Apexcharts, EmailJS'
               github ="https://github.com/youjmi/mindflo"
               deployed ="https://mindflo.herokuapp.com/"
             />
@@ -42,15 +42,15 @@ const Cards = () => {
           <ul className='cards__items'>
             <CardItem
               src={pic4}
-              title= "Bechdel Billboard"
-              text='Project 2: Express, Node, MySQL, Bcrypt'
+              title= "Project 2: Bechdel Billboard"
+              text='Express, Node, MySQL, Bcrypt'
               github ="https://github.com/youjmi/BechdelBillboard"
               deployed ="https://bechdelbillboard.herokuapp.com/"
             />
             <CardItem
               src={pic5}
               title= "Burger App"
-              text='Node, MySQL and HandleBars'
+              text='Node, Express, MySQL and HandleBars'
               github ="https://github.com/youjmi/burger-Logger_app"
               deployed ="https://yjk-burgerapp.herokuapp.com/"
             />
