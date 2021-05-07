@@ -33,6 +33,7 @@ function Home() {
           </Col>
         </Row>
         </div>
+        <div className="intdivider"></div>
 
       </Container>
 

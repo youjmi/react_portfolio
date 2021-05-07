@@ -12,6 +12,7 @@ div[data-reactroot] {
   height: 100%;
   min-height: 100%;
   font-family: 'Bebas Neue';
+
 }
 
 .colBorder{
@@ -55,6 +56,13 @@ margin: 0  !important
   
 }
 
+.intdivider{
+  height: 75vh;
+  padding: 0;
+  margin: 0;
+
+}
+
 .contact-holdbox{
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
@@ -69,6 +77,13 @@ margin: 0  !important
   justify-content: center;
 
 }
+.contactdivider{
+
+  height: 20vh;
+  padding: 0;
+  margin: 0;
+}
+
 
 .holdbox {
   background: rgb(0, 0, 0); 

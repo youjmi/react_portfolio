@@ -70,6 +70,8 @@ export default function ContactUs() {
               </div>
           </div>
       </form>
+      <div className= "contactdivider">
+</div>
       </Container>
       </>
       
