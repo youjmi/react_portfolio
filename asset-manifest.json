@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.56c52e1a.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.2a9b7231.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.2a9b7231.chunk.js.map",
+    "main.css": "/react_portfolio/static/css/main.3620c7c0.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.ca9b8853.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.ca9b8853.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.8f0e09ce.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.8f0e09ce.js.map",
     "static/css/2.47b21097.chunk.css": "/react_portfolio/static/css/2.47b21097.chunk.css",
@@ -10,12 +10,12 @@
     "static/js/2.531bf8f8.chunk.js.map": "/react_portfolio/static/js/2.531bf8f8.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
     "static/css/2.47b21097.chunk.css.map": "/react_portfolio/static/css/2.47b21097.chunk.css.map",
-    "static/css/main.56c52e1a.chunk.css.map": "/react_portfolio/static/css/main.56c52e1a.chunk.css.map",
+    "static/css/main.3620c7c0.chunk.css.map": "/react_portfolio/static/css/main.3620c7c0.chunk.css.map",
     "static/js/2.531bf8f8.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.531bf8f8.chunk.js.LICENSE.txt",
     "static/media/Young Ji Kim 2021 CL.80f8d8bf.pdf": "/react_portfolio/static/media/Young Ji Kim 2021 CL.80f8d8bf.pdf",
     "static/media/Young Ji Kim 2021 Resume.f6cd86ea.pdf": "/react_portfolio/static/media/Young Ji Kim 2021 Resume.f6cd86ea.pdf",
     "static/media/pic1.23e10666.png": "/react_portfolio/static/media/pic1.23e10666.png",
-    "static/media/pic2.1ff3887e.png": "/react_portfolio/static/media/pic2.1ff3887e.png",
+    "static/media/pic2.21c5e980.png": "/react_portfolio/static/media/pic2.21c5e980.png",
     "static/media/pic3.4c67bd5d.png": "/react_portfolio/static/media/pic3.4c67bd5d.png",
     "static/media/pic4.134c9fc3.png": "/react_portfolio/static/media/pic4.134c9fc3.png",
     "static/media/pic5.4b47dbee.png": "/react_portfolio/static/media/pic5.4b47dbee.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.8f0e09ce.js",
     "static/css/2.47b21097.chunk.css",
     "static/js/2.531bf8f8.chunk.js",
-    "static/css/main.56c52e1a.chunk.css",
-    "static/js/main.2a9b7231.chunk.js"
+    "static/css/main.3620c7c0.chunk.css",
+    "static/js/main.ca9b8853.chunk.js"
   ]
 }
