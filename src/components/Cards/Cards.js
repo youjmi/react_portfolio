@@ -20,7 +20,7 @@ const Cards = () => {
             <CardItem
               src={pic2}
               title= "Project 3: mindflō"
-              text='MERN, Bycrypt, Apexcharts, EmailJS'
+              text='(MERN) Mongo, Express, React, Node, Bycrypt, Apexcharts, EmailJS'
               github ="https://github.com/youjmi/mindflo"
               deployed ="https://mindflo.herokuapp.com/"
             />
